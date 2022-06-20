@@ -19,12 +19,16 @@ async function creatingModel() {
 
 async function connectToDd() {
   try {
-    await sequelizee.authenticate();
+    const response= await sequelizee.authenticate();
     console.log("Connection has been established successfully.");
+    console.log("Connection has been established successfully.", response);
     creatingModel();
   } catch (error) {
     console.error("Unable to connect to the database:", error);
   }
 }
-app.listen(5000, () => console.log("Server up on port 5000"));
-connectToDd();
+
+setTimeout(() => {
+  app.listen(5000, () => console.log("Server up on port 5000"));
+  connectToDd();
+}, 30000);

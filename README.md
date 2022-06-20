@@ -24,4 +24,4 @@ Para la parte del front-end esta creado con [react.js](https://reactjs.org/)
 
 * `cd back-end-node`
 
-* `docker-compose up`
+* `docker-compose up --build`
