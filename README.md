@@ -17,6 +17,8 @@ Para la parte del front-end esta creado con [react.js](https://reactjs.org/)
 
 * `cd web-contactos`
 
+* `npm install`
+
 * `npm start`
 
 
