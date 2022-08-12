@@ -16,18 +16,23 @@ Para la parte del front-end esta creado con [react.js](https://reactjs.org/)
 ### Front-end comandos 
 
 ```sh
-cd web-contactos```
+cd web-contactos
+```
 
 ```sh
- npm install```
+ npm install
+```
 
 ```sh 
-npm start```
+npm start
+```
 
 ### Back-end comandos 
 
 ```sh
-cd back-end-node```
+cd back-end-node
+```
 
 ```sh 
-docker-compose up --build```
+docker-compose up --build
+```
